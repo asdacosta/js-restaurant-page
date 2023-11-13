@@ -1,0 +1,17 @@
+{
+  "name": "js-restaurant-page",
+  "version": "1.0.0",
+  "description": "Originating from The Odin Project and it building the entire site with JavaScript except the styling",
+  "main": "index.js",
+  "scripts": {
+    "page": "git subtree push --prefix dist origin gh-pages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Da Costa Silvanus",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
